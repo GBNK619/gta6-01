@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #160f1e;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+canvas#game {
+  width: min(100vw, 160vh);
+  height: auto;
+  aspect-ratio: 1280 / 800;
+  background: #241832;
+  box-shadow: 0 0 60px rgba(255, 122, 61, 0.25);
+  image-rendering: auto;
+  cursor: crosshair;
+}
